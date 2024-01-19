@@ -1,0 +1,57 @@
+div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    padding: 10px;
+    color: #1E88E5; /* Cambiado a un tono de azul más llamativo */
+}
+
+button {
+    color: #1565C0; /* Cambiado a un tono de azul más oscuro */
+    width: 80px;
+    height: 40px;
+    border: 3px solid #1E88E5; /* Cambiado a un tono de azul más llamativo */
+    border-radius: 10px;
+    background-color: transparent;
+    font-size: xx-large;
+}
+
+#Si {
+    grid-row: 5;
+    grid-column: 5;
+}
+
+#No {
+    grid-row: 5;
+    grid-column: 6;
+}
+
+section {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(10, 1fr);
+    width: 1200px;
+    height: 600px;
+    align-items: center;
+    justify-items: center;
+}
+
+body {
+    max-width: 1200px;
+    max-height: 673px;
+    margin: 0 auto;
+    background-image: url(/foto/pngtree-landscapes-wallpaper-images-picture-image_3021437.jpg);
+    background-color: #FFC0CB; /* Fondo de color rosa claro */
+    background-repeat: no-repeat; 
+    background-position: center center; 
+    background-size: cover;
+}
+
+p {
+    font-size: xx-large;
+    justify-content: center;
+    color: #1565C0; /* Cambiado a un tono de azul más oscuro */
+}
